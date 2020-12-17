@@ -50,9 +50,9 @@ def uniqueUpdate(data1, data2):
                 dupKeys[k] = [v1, v2]
                 # Remove (k, v1) from data1
                 del data1[k]
-            else:
+            #else:
                 # Add (k, v2) to data1
-                data1[k] = v2
+                #data1[k] = v2
           else :
             # 5b .if element of given key is not present in data1, then we insert keyvalue pair in data1      
             data1[k] = v2
