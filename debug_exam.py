@@ -53,10 +53,19 @@ def uniqueUpdate(data1, data2):
             else:
                 # Add (k, v2) to data1
                 data1[k] = v2
+          else :
+            # 5b .if element of given key is not present in data1, then we insert keyvalue pair in data1      
+            data1[k] = v2
     # After processing all (k, v2) in
     # data2, return the dictionary
     return dupKeys
-
+"""5a. data1 = { 1:2, 2:2,4:9,3:2}
+       data2 = [[5,4],[4,4]]
+       
+   5C. data1 = { 1:2, 2:2,4:4,3:2}
+       data2 = [[5,4],[4,4]]
+       """
+       
 '''
 Visualize this function on an example:
 https://tinyurl.com/...
